@@ -7,14 +7,10 @@ import { Link } from 'react-router-dom';
 import { tokens } from '../../Theme';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
-// import PeopleOutlinedIcon from '@mui/icons-material/PeopleOutlined';
 import ContactsOutlinedIcon from '@mui/icons-material/ContactsOutlined';
 import ReceiptLongOutlinedIcon from '@mui/icons-material/ReceiptLongOutlined';
 import GroupsOutlinedIcon from '@mui/icons-material/GroupsOutlined';
 import HelpOutlineOutlinedIcon from '@mui/icons-material/HelpOutlineOutlined';
-// import CalendarTodayOutlinedIcon from '@mui/icons-material/CalendarTodayOutlined';
-// import TimelineOutlinedIcon from '@mui/icons-material/TimelineOutlined';
-// import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 
 const Item = ({title, to, icon, selected, setSelected}) => {
   const theme = useTheme();
